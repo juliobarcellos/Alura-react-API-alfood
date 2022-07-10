@@ -2,3 +2,34 @@
   margin-top: 1.5rem;
   padding: 2rem;
 }
+
+.pesquisaRestaurante {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.campoBusca{
+  border-radius: 3rem;
+  padding: 0.5rem;
+  text-align: justify;
+  width:55%
+}
+
+.campoOrdena{
+  border-radius: 3rem;
+  padding: 0.5rem;
+}
+
+.botaoBusca{
+  background-color: inherit;
+  border-style: none;
+  font-size: 1.1rem;
+}
+
+.botaoBusca:hover{
+  transform: scale(1.2);
+}
